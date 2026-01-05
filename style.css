@@ -196,13 +196,14 @@ ul {
 }
 
 .institutional-note {
-  margin-top: -20px;
-  margin-bottom: 32px;
+  text-align: center;
+  margin: 12px auto 28px;
+  max-width: none;
   font-size: 0.95rem;
   color: #cccccc;
   font-style: italic;
-  text-align: center;
 }
+
 
 .center-content {
   text-align: center;
