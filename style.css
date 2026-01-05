@@ -234,3 +234,30 @@ ul {
 .center-list {
   margin: 24px auto;
 }
+
+.logo-strip {
+  background: #ffffff;
+  border-bottom: 1px solid var(--border);
+  padding: 40px 20px;
+}
+
+.logo-strip-label {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.logo-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.logo-row img {
+  max-height: 50px;
+  opacity: 0.85;
+  filter: grayscale(100%);
+}
