@@ -212,3 +212,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
+.credibility p {
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
