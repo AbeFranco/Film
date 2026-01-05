@@ -213,9 +213,19 @@ ul {
   margin-right: auto;
 }
 
-.credibility p {
-  max-width: none;
-  margin-left: auto;
-  margin-right: auto;
+.credibility {
+  background: #fff;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
   text-align: center;
+  padding: 32px 20px;
+}
+
+
+.hero + .section .container {
+  padding-top: 60px;
+}
+
+.credibility p {
+  margin: 0 auto;
 }
