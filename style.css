@@ -194,3 +194,12 @@ ul {
   width: 100%;
   height: 100%;
 }
+
+.institutional-note {
+  margin-top: -20px;
+  margin-bottom: 32px;
+  font-size: 0.95rem;
+  color: #cccccc;
+  font-style: italic;
+  text-align: center;
+}
