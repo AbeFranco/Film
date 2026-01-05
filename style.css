@@ -203,3 +203,12 @@ ul {
   font-style: italic;
   text-align: center;
 }
+
+.center-content {
+  text-align: center;
+}
+
+.center-content p {
+  margin-left: auto;
+  margin-right: auto;
+}
