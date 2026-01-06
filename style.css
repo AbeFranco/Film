@@ -232,8 +232,17 @@ ul {
 }
 
 .center-list {
+  list-style-position: outside;
+  padding-left: 1.2em;
   margin: 24px auto;
+  max-width: 520px;
 }
+
+.center-list li {
+  text-align: left;
+  margin-bottom: 6px;
+}
+
 
 .logo-strip {
   background: #ffffff;
