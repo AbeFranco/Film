@@ -260,5 +260,7 @@ ul {
   max-height: 100px;
   max-width: 220px;
   opacity: 1;
+  filter: grayscale(100%);
 }
+
 
