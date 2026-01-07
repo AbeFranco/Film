@@ -313,3 +313,73 @@ ul {
   color: var(--muted);
 }
 
+/* ————————————————————————————————— */
+/* TIGHTER LICENSING PAGE RHYTHM       */
+/* ————————————————————————————————— */
+
+.license {
+  padding: 20px 24px;           /* tighten tier block padding */
+  margin-top: 24px;             /* reduce vertical separation */
+}
+
+.pricing-tiers .license-tier {
+  padding: 20px 24px;
+  margin-bottom: 24px;
+}
+
+/* Section padding reduction */
+.section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section.alt {
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+
+/* Tighten heading-to-text spacing */
+h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+h3 {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* Pricing intro spacing */
+.pricing-intro {
+  margin-top: -8px;
+  margin-bottom: 20px;
+  font-size: 1.02rem;
+}
+
+/* List spacing */
+ul {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 1.35em;         /* keep bullets readable */
+}
+
+ul li {
+  margin-bottom: 6px;           /* tighter list spacing */
+  line-height: 1.44;
+}
+
+/* CTA spacing */
+.btn {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+/* FAQ question spacing */
+.section.alt p + p {
+  margin-top: 10px;
+}
+
+/* Payment flow list */
+.section ul li {
+  margin-bottom: 4px;
+}
