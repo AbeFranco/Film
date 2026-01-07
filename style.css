@@ -383,3 +383,9 @@ ul li {
 .section ul li {
   margin-bottom: 4px;
 }
+
+/* Tighten container spacing on licensing page only */
+body.licensing .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
