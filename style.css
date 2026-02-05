@@ -395,3 +395,16 @@ body.licensing .container {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.nav-logo img {
+  height: 40px;
+  width: auto;
+}
