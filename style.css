@@ -239,6 +239,8 @@ a:hover {
   text-transform: uppercase;
   color: #999;
   margin-bottom: 0.75rem;
+  text-align: center;
+  display: block;
 }
 
 .video-hero .eyebrow {
