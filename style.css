@@ -142,10 +142,34 @@ a:hover {
   height: 60px;
 }
 
-.nav-logo img {
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.nav-brand img {
   height: 36px;
   width: auto;
   display: block;
+}
+
+.nav-brand-name {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.nav-brand:hover .nav-brand-name {
+  opacity: 0.8;
+}
+
+.nav-brand:hover {
+  text-decoration: none;
 }
 
 .nav-links {
