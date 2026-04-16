@@ -131,6 +131,7 @@ a:hover {
 .nav {
   background: #111;
   padding: 0 1.5rem;
+  overflow: hidden;
 }
 
 .nav-inner {
@@ -150,7 +151,7 @@ a:hover {
 }
 
 .nav-brand img {
-  height: 36px;
+  height: 32px;
   width: auto;
   display: block;
 }
