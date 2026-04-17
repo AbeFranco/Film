@@ -928,3 +928,124 @@ a:hover {
     font-size: 1.5rem;
   }
 }
+
+/* Reaction strip — homepage */
+.reaction-strip {
+  max-width: 580px;
+  margin: 1.75rem auto 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.reaction-item {
+  font-family: var(--font-serif);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #444;
+  text-align: center;
+  padding: 0.875rem 0;
+  border-bottom: 0.5px solid var(--border-light);
+  margin: 0;
+  max-width: none;
+  line-height: 1.6;
+}
+
+.reaction-item:last-child {
+  border-bottom: none;
+}
+
+.reaction-source {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-style: normal;
+  color: #bbb;
+  letter-spacing: 0.03em;
+  margin-top: 0.3rem;
+}
+
+/* Reaction grid — use page */
+.reaction-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.reaction-card {
+  background: #fff;
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.reaction-text {
+  font-family: var(--font-serif);
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #333;
+  line-height: 1.65;
+  margin: 0 0 0.75rem;
+  max-width: none;
+}
+
+.reaction-attr {
+  font-size: 0.75rem;
+  color: #aaa;
+  margin: 0;
+  max-width: none;
+}
+
+.reach-note {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  max-width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reach-note p {
+  font-size: 0.875rem;
+  color: #555;
+  line-height: 1.7;
+  margin: 0;
+  max-width: none;
+  text-align: center;
+}
+
+/* Proof row — licensing page */
+.proof-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.proof-item {
+  padding: 1rem 1.1rem;
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.proof-org {
+  font-size: 0.825rem;
+  font-weight: 500;
+  color: var(--ink);
+  margin: 0 0 0.25rem;
+  max-width: none;
+}
+
+.proof-detail {
+  font-size: 0.775rem;
+  color: #999;
+  margin: 0;
+  line-height: 1.5;
+  max-width: none;
+}
