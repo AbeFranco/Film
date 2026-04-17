@@ -1049,3 +1049,12 @@ a:hover {
   line-height: 1.5;
   max-width: none;
 }
+
+.subhead-secondary {
+  font-size: 0.95rem;
+  color: var(--muted);
+  max-width: 560px;
+  margin: 0.75rem auto 2rem;
+  line-height: 1.75;
+  text-align: center;
+}
