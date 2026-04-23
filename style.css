@@ -213,6 +213,10 @@ a:hover {
   color: var(--ink);
   margin-bottom: 1.25rem;
   line-height: 1.35;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 680px;
 }
 
 .hero-content h1 em {
