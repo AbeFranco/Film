@@ -1,0 +1,7 @@
+# GitHub Pages build settings.
+# Keep the update pipeline off the public site. Without this, CLAUDE.md and
+# every file in inbox/ (held claims, consent notes, open questions) would be
+# published at abrahamfranco.com/CLAUDE.md and abrahamfranco.com/inbox/.
+exclude:
+  - CLAUDE.md
+  - inbox
