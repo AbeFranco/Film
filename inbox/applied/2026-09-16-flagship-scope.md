@@ -2,7 +2,7 @@
 type: site-update
 date: 2026-09-16
 source: Claude Code session — revert the $25,000 deliverables to the rate sheet scope
-status: pending — HELD, see section 7
+status: superseded 2026-09-18 by inbox/2026-09-18-homepage-rebuild.md (all section 7 questions answered there)
 ---
 
 # Site update — $25,000 flagship scope

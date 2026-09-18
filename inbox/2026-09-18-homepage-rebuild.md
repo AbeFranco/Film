@@ -2,13 +2,15 @@
 type: site-update
 date: 2026-09-18
 source: Claude Code session — homepage rebuild from Abraham's draft (`~/Downloads/Sept2026_web_update.html`) plus his written corrections, 2026-09-18
-status: pending — PARTIAL, held items listed below
+status: applied 2026-09-18 (partial). Held items 1–4 are still open, so the file stays in inbox/
 supersedes: inbox/2026-09-16-flagship-scope.md
 ---
 
 # Site update — new homepage (commissioned short documentaries)
 
-**Held (blocks a full publish):**
+**Applied 2026-09-18:** `c0f3ec1`, Pages build verified, production checked. The film plays for a logged-out visitor.
+
+**Still held (open):**
 0. ~~The Vimeo embed isn't the film.~~ **Resolved 2026-09-18.** Swapped to `1144664034?h=3d7526e6ea` ("The Blessed Corner Short Documentary Film", 2:37 confirmed from the player, plays logged out). `1151406974` is the anchor testimonial. Both IDs are recorded in the vault audit.
 1. Anchor quote. The excerpt hasn't been chosen yet. Abraham marks the cut from the verbatim transcript. The quote section is left out of `index.html`, with only an empty marker comment. Restore markup is in section 7.
 2. Bio, second sentence. The station call letters are missing, so the whole sentence is left out of the page (empty marker only). The full text is below in section 1. Rewording it to drop the call letters isn't allowed.
