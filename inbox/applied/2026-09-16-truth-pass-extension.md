@@ -2,7 +2,7 @@
 type: site-update
 date: 2026-09-16
 source: Claude Code session — extend the truth pass to every remaining page
-status: pending
+status: applied 2026-09-18
 ---
 
 # Site update — truth pass, remaining pages
