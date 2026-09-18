@@ -933,6 +933,12 @@ a:hover {
 
   .nav-links a {
     font-size: 0.8rem;
+    white-space: nowrap;
+  }
+
+  /* Logo alone on phones, so all three nav links fit on one line */
+  .nav-brand-name {
+    display: none;
   }
 
   .container {
